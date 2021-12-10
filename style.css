@@ -1,0 +1,87 @@
+/* html {
+    scroll-behavior: smooth;
+  } */
+  body {
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    background-color: rgb(230, 228, 228);
+}
+
+/* Style the navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(185, 178, 137);
+    position: relative;
+  }
+  .navbar #menu {
+    display: none;
+  }
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .navbar a.icon {
+    background: rgb(65, 42, 1);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar a:hover {
+    background-color: rgb(240, 232, 217);
+    color: black;
+  }
+  .active {
+    background-color: #db9437;
+    color: white;
+  }
+
+/* Styling body */
+  .slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  @-webkit-keyframes slideUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  img {
+      border-radius: 15px;
+  }
+  img {
+      width: 50%;
+      height: 50%
+  }
+
+  
+
+  
