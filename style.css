@@ -74,12 +74,15 @@
     }
   }
 
+  h1, h2 {
+      margin-top: 3rem;
+  }
+
   img {
       border-radius: 15px;
   }
   img {
-      width: 50%;
-      height: 50%
+      width: 60%;
   }
 
   
